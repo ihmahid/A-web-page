@@ -1,0 +1,179 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*golobal css start here*/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+
+/*golobal css end here*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	border-bottom: 1px solid #eee;
+}
+.menu{
+	width: 100%;
+	text-align: right;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 12px 0px 0px 0px;
+}
+.menu li a{
+	font-size: 14px;
+	font-weight: 500px;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 15px;
+	color: #0F2656;
+	transition: 1s;
+}
+.menu li a:hover{
+	color: #008AFF;
+}
+
+/*online section css start*/
+.online-section{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 50px;
+}
+.online-section h1{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #0F2656;
+	margin: 10px;
+}
+.online-section h1 span{
+	color:#008AFF ;
+}
+.online-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin: 10px;
+
+}
+
+/*success-section css start*/
+.success-section{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.success-section .title{
+	font-size: 60px;
+	text-align: right;
+	line-height: 70px;
+	font-weight: 700;
+	color: #F15767;
+	margin: 10px;
+	padding-right: 20px;
+
+}
+.success-section .desc{
+	font-size: 14px;
+	text-align: right;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin: 10px;
+	padding: 20px;
+
+}
+.success-section .right-title{
+	font-size: 45px;
+	line-height: 55px;
+	font-weight: 700;
+	color: #0F2656;
+	margin: 10px;
+	padding-left: 20px;
+}
+/*feature-section css start*/
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.inner-feature{
+	width: 80%;
+	margin: 0px 15px;
+	float: left;
+	padding: 30px 15px;
+	background: #FDEBED;
+}
+.inner-feature img{
+	width: 100%;
+	height: 200px;
+}
+.inner-feature h4{
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+	font-weight: 700;
+	color: #0F2656;
+	margin: 10px;
+	padding: 20px;
+
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin: 10px;
+}
+/*footer-section css start here*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 10px 0px 20px 0px;
+	text-align: center;
+	background: #008AFF;
+}
+.footer-section p{
+	font-size: 14px;
+	font-weight: 400px;
+	color: #9FCCFF;
+}
+.footer-section p a{
+	font-weight: 700px;
+	color: #fff;
+	text-transform: uppercase;
+}
